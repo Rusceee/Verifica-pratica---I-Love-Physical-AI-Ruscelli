@@ -20,5 +20,12 @@ class Robot:
     def aggiungi_componente(self, componente:Componente)
         this.componenti.append(componente)
     
-    
+    def rimuovi_componente(self, codice:str):
+        a=0
+        for x in this.componenti:
+            
+            if(x.codice==codice)
+                componenti.remove(a)
+            a++
+        return None 
             
